@@ -185,11 +185,22 @@ ul li {
 
 .footer__form button {
   width: 43px;
-  height: 38px;
+  height: 42px;
   background-color: #8bc34a;
   border: none;
   position: absolute;
-  right: 0;
+  right: 46px;
+  top: 0;
+}
+
+.footer__form button:before {
+  content: "\f124";
+  position: absolute;
+  font-family: 'icomoon';
+  font-size: 20px;
+  color: #fff;
+  right: 14px;
+  top: 10px;
 }
 
 .footer__copy {
